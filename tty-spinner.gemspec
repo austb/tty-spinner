@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'tty/spinner/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'tty-spinner'
+  spec.name          = 'tty-multispinner'
   spec.version       = TTY::Spinner::VERSION
-  spec.authors       = ['Piotr Murach']
-  spec.email         = ['pmurach@gmail.com']
+  spec.authors       = ['Piotr Murach', 'Austin Blatt']
+  spec.email         = ['austinblatt@gmail.com']
   spec.summary       = %q{A terminal spinner for tasks that have non-deterministic time frame.}
   spec.description   = %q{A terminal spinner for tasks that have non-deterministic time frame.}
-  spec.homepage      = 'https://github.com/piotrmurach/tty-spinner'
+  spec.homepage      = 'https://github.com/austb/tty-spinner'
   spec.license       = 'MIT'
 
   spec.files         = Dir['lib/**/*.rb', 'LICENSE.txt', 'README.md']
